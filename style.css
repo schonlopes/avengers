@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.cabecalho-imagem{
+    width: 15%;
+    position: relative;
+    right: 90px;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.escola-imagem{
+    width: 25%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-top: 40px;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    z-index: 1;
+}
+
+.border::before, .border::after {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: 165px;
+    right: 210px;
+    width: 410px;
+    height: 500px;
+    background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000, #ffff00, #00ff00, #0099ff, #001aff);
+    background-size: 300%;
+    animation: rotateBorder 8s linear infinite;
+}
+
+@keyframes rotateBorder {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 300%;
+    }
+}
+
+.border::after{
+    filter: blur(50px);
+}
+
+
+#escola{
+    background-image: linear-gradient(#4E54E9,#000000);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+    padding: 30px, 30px, 30px, 0px ;
+    position: relative;
+    right: 30px;
+}
+
+.escola-titulo{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 38px;
+}
+
+.escola-texto-um {
+    text-align: justify;
+    padding-bottom: 24px;
+    font-size: 18px;
+}
+
+.escola-texto-dois {
+    text-align: justify;
+    padding-bottom: 24px;
+    font-size: 18px;
+}
+
+#estudante{
+    background-image: linear-gradient(#000000,#FE0202);
+    color: white;
+    padding: 0;
+}
+
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
