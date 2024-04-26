@@ -94,7 +94,7 @@ body {
 
 .escola-texto-um {
     text-align: justify;
-    padding-bottom: 24px;
+    padding-bottom: 50px;
     font-size: 18px;
 }
 
@@ -113,11 +113,14 @@ body {
 
 .estudante-imagem{
     width: 120px;
+    height: 120px;
 }
 
 .estudante-icone{
-    width: 24px;
+    width: 40px;
+    height: 40px;
     padding: 4px 8px;
+    display: inline-block;
 }
 
 .estudante-div{
@@ -127,7 +130,10 @@ body {
 
 .estudante-titulo{
     text-align: center;
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .estudante-todos{
@@ -141,7 +147,6 @@ body {
 }
 
 .rodape-imagem{
-    height: 60px;
-    padding: 12px 0;
-   
+    width: 10%;
+    height: 10%;
 }
