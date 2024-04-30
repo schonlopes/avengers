@@ -47,6 +47,7 @@ body {
 .border::before, .border::after {
     content: '';
     position: absolute;
+    display: contents;
     z-index: 0;
     top: 165px;
     right: 210px;
